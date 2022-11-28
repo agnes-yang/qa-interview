@@ -7,6 +7,19 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- 设置链接为新标签页打开 -->
+  <!-- <base target="_blank" />     -->
+  <style type="text/css">
+    a {
+      text-decoration: none;
+    }
+
+    .markdown-section a {
+      font-weight: normal;
+    }
+    
+  </style>
+
   <script>
   var _hmt = _hmt || [];
   (function() {
@@ -25,7 +38,7 @@
         // '/.*/_sidebar.md': '/_sidebar.md', // See #301
         '/.*/_navbar.md': '/_navbar.md' // See #301
       },
-      name: '软件测试面试',
+      name: '自问自答',
       repo: 'https://github.com/qadoc/qa-interview',
       // loadSidebar: true,
       loadNavbar: true,
@@ -46,7 +59,7 @@
           var footer = [
             '<hr/>',
             '<footer>',
-            '<span style="padding-right:1em"><a href="https://qadoc.org">QAdoc</a> &copy;2020</span>',
+            '<span style="padding-right:1em"><a href="https://qadoc.cn">QAdoc</a> &copy;2020</span>',
             '<span>原创作品，采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>，转载请注明出处。</span>',
             '</footer>'
           ].join('')

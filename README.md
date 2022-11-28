@@ -1,58 +1,144 @@
 
 !> [阅前必读](阅前必读.md)
 
-## 🔰 入门
+## 1. 👴 简历与面试
 
-- [简历制作](intro/cv.md)
-- [面试流程](intro/process.md)
-- [面试官](intro/interviewer.md)
+- [Q0001 如何制作一份合格的简历？](answer/Q0001.md)
+- [Q0002 一个完整的面试过程是怎样的？](answer/Q0002.md)
+- [Q0003 换个视角看面试。](answer/Q0003.md)
+- [Q0008 面试经历精选。](answer/Q0008.md)
+- [Q0009 面试真题精选。](answer/Q0009.md)
 
----
+## 2. 💻 开发技术
 
-## 📔 面试题
+### 2.1. 计算机基础
 
-### 🐾 工作经验
+#### 2.1.1. 操作系统
 
-- [项目经历](questions/work/项目经历.md)
-- [工作总结](questions/work/工作总结.md)
-- [职业观](questions/work/职业观.md)
+**操作系统原理**
 
-### 🐞 测试技术
+- 进程和线程区别，为什么进程切换开销比线程大？
 
-- [测试基础](questions/test/测试基础.md)
-- [前端测试](questions/test/前端测试.md)
-- [服务端测试](questions/test/服务端测试.md)
-- [移动端测试](questions/test/移动端测试.md)
-- [白盒测试]()
-- 安全测试
-- [代理与Mock](questions/test/proxy.md)
-- [代码覆盖率]()
+**Linux**
 
-### 💻 开发技术
-
-- [Java](questions/dev/java.md)
-- [Python](questions/dev/python.md)
-- [数据库](questions/dev/db.md)
-- [操作系统](questions/dev/os.md)
-- [网络](questions/dev/network.md)
-- [数据结构和算法](questions/dev/algorithms.md)
-- [系统架构与设计](questions/dev/design.md)
+- 知道哪些 Linux 命令？
+- 怎么编写定时任务？
 
 
-### 🏢 管理
+#### 2.1.2. 计算机网络
 
-- [管理](questions/manage/管理.md)
 
-### 👀 软能力
+#### 2.1.3. 数据结构和算法
 
-- [自我表达](questions/common/自我表达.md)
-- [智力题](questions/common/智力题.md)
-- [转场反问](questions/common/转场反问.md)
-- [HR 面](questions/common/HR面.md)
+**基础算法**
 
----
+- [Q0010 知道哪些排序算法，选择最熟悉的写一个？](answer/Q0010.md)
 
-## 👴 面经
 
-- [面试经验](experiences/面试经验.md)
-- [面试真题](experiences/面试真题.md)
+
+#### 2.1.4. 架构与设计
+
+
+
+#### 2.1.5. 数据库
+
+**SQL**
+
+- [Q0011 不同 JOIN 的区别？](answer/Q0011.md)
+- [Q0020 union 和 union all 的区别？](answer/Q0020.md)
+
+**MySQL**
+
+- [Q0012 MySQL 索引知道哪些？](answer/Q0012.md)
+
+### 2.2. 后端开发
+
+#### 2.2.1. Java
+
+##### 2.2.1.1. Java 基础
+
+**Java 语法**
+
+- [Q0015 Java 数据类型有哪些？](answer/Q0015.md)
+- [Q0016 Java int 和 Integer 区别？使用上有什么区别？](answer/Q0016.md)
+- [Q0014 接口和抽象类的区别？](answer/Q0014.md)
+- [Q0017 说下你遇到的异常？](answer/Q0017.md)
+
+**Java API**
+
+- [Q0013 浅拷贝和深拷贝的区别？深拷贝怎么实现？](answer/Q0013.md)
+
+
+
+#### 2.2.2. Python
+
+
+
+## 3. 🐞 测试技术
+
+### 3.1. 测试理论与基础
+
+### 3.2. 测试左移
+
+### 3.3. 环境部署
+
+### 3.4. 用例筛选与追溯
+
+### 3.5. 用例设计与执行
+
+#### 3.5.1. Web 端测试
+
+**Selenium**
+
+- [Q0021 Selenium 工作原理？](answer/Q0021.md)
+
+#### 3.5.2. 服务端测试
+
+
+
+#### 3.5.3. 移动端测试
+
+
+
+### 3.6. 质量度量
+
+#### 3.6.1. 覆盖率
+
+### 3.7. 研发效能
+
+## 4. 🏢 测试管理
+
+### 4.1. 项目管理
+
+### 4.2. 团队管理
+
+### 4.3. 质量体系
+
+## 5. 🐾 工作总结
+
+- [Q0018 介绍下你简历上的 XX 业务项目。](answer/Q0018.md)
+- [Q0019 说下简历中的 XX 工具/平台/方案。](answer/Q0019.md)
+
+
+
+## 6. 👀 通用问题
+
+### 6.1. 智力题
+
+- [Q0004 一个 80ml 的水杯装满水，一个 50ml 和一个 30ml 的空杯，怎么分出两个 40ml 的水。](answer/Q0004.md)
+- [Q0005 有外表相同的 8 个球，其中一个与其他七个重量不同，而且不知道这个球是比其他球轻还是重。请通过三次天平称重，找到那个不一样的球。](answer/Q0005.md)
+- [Q0006 一根不均匀的绳子，全部烧完需要1个小时，问怎样烧这种绳子能计时1个小时15分钟？](answer/Q0006.md)
+
+### 6.2. 转场反问
+
+- [Q0007 你有什么想问我（面试官）的？（转场反问）](answer/Q0007.md)
+
+### 6.3. 自我认知
+
+- 请做下自我介绍。
+- 说说你的优缺点。
+
+
+
+
+
