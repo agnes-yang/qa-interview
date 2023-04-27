@@ -1,5 +1,5 @@
 
-* [QAdoc](https://qadoc.org)
+* [QAdoc](https://qadoc.cn)
 * 刷题
 	* [leetcode](https://leetcode-cn.com)
 	* [牛客网](https://www.nowcoder.com)
