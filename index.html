@@ -100,7 +100,7 @@
             main = domObj.getNode("#main");
 
             gitalkConfig.title = label;
-            gitalkConfig.body = location.href + "\n\n" + '问题讨论区';
+            gitalkConfig.body = location.href.replace(/\?code=[a-z0-9]+/g,""); + "\n\n" + '问题讨论区';
 
             /**
              * render gittalk
