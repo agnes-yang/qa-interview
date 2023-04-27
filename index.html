@@ -39,10 +39,12 @@
       repo: 'qa-interview',
       owner: 'qadoc',
       admin: ['ly1012'],
+      title: '',
+      body: '',
       perPage: 20,
       // language: "en",
       labels: ["💬Gitalk"],
-      pagerDirection: "last",
+      pagerDirection: "first",    //评论排序方式：last为按评论创建时间倒叙，first为按创建时间正序。
       distractionFreeMode: false
     };
 
@@ -96,6 +98,9 @@
             label_decode = decodeURIComponent(label);
             domObj = Docsify.dom;
             main = domObj.getNode("#main");
+
+            gitalkConfig.title = label;
+            gitalkConfig.body = vm.route.path + "\n\n" + '问题讨论区';
 
             /**
              * render gittalk
